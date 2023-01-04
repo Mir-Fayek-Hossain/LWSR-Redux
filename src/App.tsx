@@ -9,7 +9,8 @@ function App() {
     return (
         <Provider store={store}>
         <div className="App">
-            {/* <Counter /> */}
+            <Counter dynamic={false}/>
+            <Counter dynamic/>
             <HCounter />
             <DCounter />
         </div>
